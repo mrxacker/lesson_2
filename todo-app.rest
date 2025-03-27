@@ -1,0 +1,12 @@
+### Homepage
+GET http://127.0.0.1:5000
+
+
+### Register
+POST http://127.0.0.1:5000/auth/register
+Content-Type: application/json
+
+{
+  "username": "aw1sqdmin1010",
+  "password": "admin"
+}
